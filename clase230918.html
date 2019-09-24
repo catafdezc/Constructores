@@ -1,0 +1,21 @@
+<script>
+// animal, nombre, edad, juguetes representadas en listas
+
+let nombre = prompt("Nombre de la mascota")
+let edad = prompt( "Edad de la mascota")
+let j1 = prompt( "Nombra un juguete que tenga tu mascota")
+let j2 = prompt( "Nombra otro juguete que tenga tu mascota")
+let juguetes = [ j1, j2]
+
+function Mascota(n, e, j) {
+    this.nombre = n
+    this.edad = e
+    this.juguetes = j
+
+}
+
+let mascota1 = new Mascota(nombre, edad, juguetes)
+console.log(mascota1)
+
+
+</script>
